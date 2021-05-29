@@ -1,0 +1,732 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Top Destinantions</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="Styles/main.css">
+    <script src="https://kit.fontawesome.com/ed6843e3a7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <!---Navigation bar-->  
+    
+    <nav class="navbar navbar-expand-lg navbar-light main-navbar
+      bg m-navbar-light" id="main-navbar">
+      <div class="container">
+          <a class="navbar-brand"href="#">Top Destinations</a>
+          <button class="navbar-toggler"type="button"data-toggle="collapse"
+          data-target="#my-nav" aria-controls="p-nav"aria-expanded="false"
+          aria-label="toggle-navigation">
+        <span>Menu</span>
+        </button>
+        <div class="collapse navbar-collapse"id="my-nav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a href="index.html"class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html"class="nav-link">About</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="Lifestyle.html"class="nav-link">Lifestyle</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Events.html"class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Services.html"class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Connect with Us.html"class="nav-link">Connect with us</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+    <!--End-of-navigation-bar-->
+
+    <!--Banner-Image-->
+
+    <section class="banner-wrap"
+    style="background-image:url('images/banner-1.jpeg');">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row no-gutters main-text align-items-center">
+            <div class="col-lg-7 col-mid-6 d-flex align-items-end">
+                <div class="text">
+                    <h1 class="mb-4 text-capitalize">ROME</h1>
+                       
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--end-of-banner-Image-->
+
+<!---Tab-section-and-forms-->
+<section>
+    <div class="section-search">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 tab-search">
+              <div class="nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <a class="nav-link p-3 active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Flights</a>
+              <a class="nav-link p-3" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"> Hotels</a>
+              <a class="nav-link p-3" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Car Rental</a>
+              <a class="nav-link p-3" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"> Cruises</a>
+            </div>
+          </div>
+
+          <div class="tab-content py-5" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+              <div class="block-17">
+                <form class="d-block d-lg-flex">
+                  <div class="fields d-block d-lg-flex">
+
+                    <div class="textfield-search one-third"><input type="text" class="form-control" placeholder="Search Location"></div>
+
+                    <div class="check-in one-third"><input type="text" id="checkin_date" class="form-control" placeholder="Check-in date"></div>
+
+                    <div class="check-out one-third"><input type="text" id="checkout_date" class="form-control" placeholder="Check-out date"></div>
+                    <div class="select-wrap one-third">
+                   <select name="" id="" class="form-control">
+                        <option value="">Guest</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3+</option>
+                        
+                      </select>
+                    </div>
+                  </div>
+                  <input type="submit" class="search-submit btn btn-primary" value="Find local flights">
+                </form>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+              <div class="block-17">
+                <form action="" method="post" class="d-block d-lg-flex">
+                  <div class="fields d-block d-lg-flex">
+                    <div class="textfield-search one-third"><input type="text" class="form-control" placeholder="Search Hotel"></div>
+
+                    <div class="check-in one-third"><input type="text" id="checkin_date" class="form-control" placeholder="Check-in date"></div>
+
+                    <div class="check-out one-third"><input type="text" id="checkout_date" class="form-control" placeholder="Check-out date"></div>
+                    <div class="select-wrap one-third">
+                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                      <select name="" id="" class="form-control">
+                        <option value="">Guest</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3+</option>
+                        
+                      </select>
+                    </div>
+                  </div>
+                  <input type="submit" class="search-submit btn btn-primary" value="Find Hotels">
+                </form>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+              <div class="block-17">
+                <form action="" method="post" class="d-block d-lg-flex">
+                  <div class="fields d-block d-lg-flex">
+                    <div class="textfield-search one-third"><input type="text" class="form-control" placeholder="Search Location"></div>
+
+                    <div class="check-in one-third"><input type="text" id="Pick-up-date" class="form-control" placeholder="Pick-up-date"></div>
+
+                    <div class="check-out one-third"><input type="text" id="Drop-off-date" class="form-control" placeholder="Drop-off-date"></div>
+                    <div class="select-wrap one-third">
+                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                      <select name="" id="" class="form-control">
+                        <option value="">Guest</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3+</option>
+                        
+                      </select>
+                    </div>
+                  </div>
+                  <input type="submit" class="search-submit btn btn-primary" value="Find Car">
+                </form>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <div class="block-17">
+                <form action="" method="post" class="d-block d-lg-flex">
+                  <div class="fields d-block d-lg-flex">
+                    <div class="textfield-search one-third one-third-1"><input type="text" class="form-control" placeholder="Search Location"></div>
+
+
+                    <div class="check-out one-third one-third-1"><input type="text" id="start_date" class="form-control" placeholder="Check-out date"></div>
+
+                    <div class="select-wrap one-third one-third-1">
+                      <div class="icon"></div>
+                      <select name="" id="" class="form-control">
+                        <option value="">Categories</option>
+                        <option value="">Suite</option>
+                        <option value="">Super Deluxe</option>
+                        <option value="">Economy</option> 
+                      </select>
+                    </div>
+                  </div>
+                  <input type="submit" class="search-submit btn btn-primary" value="Find Cruise">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!---End-of-tab-and-forms-section-->
+
+<!--About-City-->
+
+<section class="about mt-5">
+  <div class="container">
+        <div id="about">
+          <div class="section-title mb-35">
+            <h2>About Rome</h2>
+            <p>Rome is a historic city located in the central western portion of the Italian peninsula.The city has been a major human settlement
+              for almost three mellennia with a population of 2.8 million people as of 2020.With its unparalleled history, Rome is the third most visited city in Europe and the fourteenth worldwide.
+              It attracts visitors from all over the world who are impatient to discover the city’s impressive monuments and archaeological sites; not to mention its renowned cuisine and its lively atmosphere.<br>
+              When exploring the Colosseum, visitors will easily imagine how the gladiators fought for their life in the arena, cheered by the crowd. In the Circus Maximus, travelers will picture the chariots
+              crashing into each other in order to be first in the race, and in the Roman Forum visualise what the Roman public life was like.
+            </p>
+          </div>
+        </div>
+
+        <div class="row img-wrap mb-5 mb-lg-0">
+          <div class="col-12">
+            <div class="row">
+              <div class="mb-4 margin-lg-0 col-lg-6 order-lg-2">
+                <a href="#" class="effect">
+                  <img src="images/about 1.jpeg"alt="" class="img-fluid" width="" height="20%"> 
+                </a>
+              </div>
+              <div class="col-lg-5 mr-auto text-lg-right align-self-center order-lg-1">
+                <h2 class="text-black">Culture</h2>
+                <p class="mb-4">The culture and traditions in Rome reflect its historic past and celebrate the modern world.
+                  Roman culture is an eclectic mix of high culture,the arts,fashion and historic architecture.Daily life centers around enduring
+                  traditions rich in religion and food.It is this contrast of historic and modern culture and tradtions that defines Rome as the Eternal City.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row img-wrap mb-5 mb-lg-0">
+          <div class="col-12">
+            <div class="row">
+              <div class="mb-4 margin-lg-0 col-lg-6">
+                <a href="#" class="effect">
+                  <img src="images/about 5.jpeg"alt="" class="img-fluid"> 
+                </a>
+              </div>
+              <div class="col-lg-5 ml-auto align-self-center order-lg-1">
+                <h2 class="text-black">People</h2>
+                <p class="mb-4">Since ancient times,to be a citizen of Rome has been a source of pride. Today there is still considerable prestige in being a Romano di Roma, or “Roman” Roman.
+                  Although the great majority of Romans are Catholics, the city also is home to a variety of other religious groups.
+                  Jewish people, for example, have lived in the city for thousands of years. Jews generally were not persecuted in Rome until the 16th-century pope Paul IV forced them into a ghetto (near Piazza Navona).
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row img-wrap mb-5 mb-lg-0">
+          <div class="col-12">
+            <div class="row">
+              <div class="mb-4 margin-lg-0 col-lg-6 order-lg-2">
+                <a href="#" class="effect">
+                  <img src="images/about 3.jpeg"alt="" class="img-fluid" height="20%" width=""> 
+                </a>
+              </div>
+              <div class="col-lg-5 mr-auto text-lg-right align-self-center order-lg-1">
+                <h2 class="text-black">History</h2>
+                <p class="mb-4">Rome has a rich history,which inspires a lot of people and stories have been told about the Roman Empire over generations.
+                  The Roman Empire founded in 27 B.C was a vast and powerful domain that gave rise to the culture,laws,technologies and institutions 
+                  that continue to define.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>       
+<!--end-of-About-City-->
+
+<!--top-attractions-->
+
+<section class="mt-2">
+  <div class="featured-places">
+      <div class="container">
+          <div class="row-justify-content-center">
+              <div class="col-lg-6">
+                  <div class="section-title text-center mb-70">
+                      <h3 class="text-uppercase text-center">Top Attractions In Rome</h3>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-4 col-md-6">
+                  <div class="single-dest">
+                      <div class="thumb">
+                          <img src="Images/attraction 1.jpeg"class="img-fluid"alt="">
+                      </div>
+                      <div class="dest-info">
+                          <a href="#">
+                              <h3>Trevi Fountain</h3>
+                          </a>
+                          <p>Trevi Fountain is the most beautiful fountain in Rome. Measuring some 20 meters in width by 26 meters in height, Trevi Fountain is also the largest fountain in the city.
+                            The origins of the fountain go back to the year 19 B.C., in which period the fountain formed the end of the Aqua Virgo aqueduct. The first fountain was built during the Renaissance, under the direction of Pope Nicholas V.
+                            The final appearance of the Trevi Fountain dates from 1762, when after many years of works at the hand of Nicola Salvi, it was finalized by Giuseppe Pannini.                          
+                            Interestingly enough, the name of Trevi derives from Tre Vie (three ways), since the fountain was the meeting point of three streets.</p>
+                          <div class="rating d-flex justify-content-between">
+                        <span class="d-flex justify-content-center align-items-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <a href="#">(15 Reviews)</a>
+                        </span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+<!------>
+              <div class="col-lg-4 col-md-6">
+                  <div class="single-dest">
+                      <div class="thumb">
+                          <img src="images/attraction 2.jpeg"class="img-fluid"alt="">
+                      </div>
+                      <div class="dest-info">
+                          <a href="#">
+                              <h3>Colosseum</h3>
+                          </a>
+                          <p>The Colosseum is the main symbol of Rome. It is an imposing construction that, with almost 2,000 years of history, will bring you back in time to discover the way of life in the Roman Empire.
+                            The construction of the Colosseum began in the year 72 under the empire of Vespasian and was finished in the year 80 during the rule of the emperor Titus.
+                            After completion, the Colosseum became the greatest Roman amphitheatre, measuring 188 meters in length, 156 meters in width and 57 meters in height.</p>
+                          <div class="rating d-flex justify-content-between">
+                        <span class="d-flex justify-content-center align-items-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <a href="#">(30 Reviews)</a>
+                        </span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+<!------>
+              <div class="col-lg-4 col-md-6">
+                  <div class="single-dest">
+                      <div class="thumb">
+                          <img src="images/attraction 3.jpeg"class="img-fluid"alt="">
+                      </div>
+                      <div class="dest-info">
+                          <a href="#">
+                              <h3>Roman Forum</h3>
+                          </a>
+                          <p>The Roman Forum was where religious and public life in ancient Rome took place. The Forum is, along with the Colosseum, the greatest sign of the splendour of the Roman Empire that can be seen today.
+                            After the fall of the Empire, the Roman Forum was forgotten and little by little it was buried under the earth. Although in the 16th century the existence and location of the Forum was already known, it was not until the 20th century that excavations were carried out.  
+                            Interestingly, the place where the Forum was built was originally a marshy area. In the 6th century B.C. the area was drained by means of the Cloaca Maxima, one of the first sewer systems in the world.</p>
+                          <div class="rating d-flex justify-content-between">
+                        <span class="d-flex justify-content-center align-items-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <a href="#">(20 Reviews)</a>
+                        </span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+<!------>
+              <div class="col-lg-4 col-md-6">
+                  <div class="single-dest">
+                      <div class="thumb">
+                          <img src="images/attraction 4.jpeg"class="img-fluid"alt="">
+                      </div>
+                      <div class="dest-info">
+                          <a href="#">
+                              <h3>Fountains of Piazza Novana</h3>
+                          </a>
+                          <p>The public square is built on the site where the Stadium of Domitian (Circus Agonalis), founded in 86 AD, once stood.
+                            It could hold approximately 20,000 spectators, which came here to see different athletic competitions.
+                            The most beautiful parts of Piazza Navona are its three fountains, designed during the papacy of Gregory XIII.</p>
+                          <div class="rating d-flex justify-content-between">
+                        <span class="d-flex justify-content-center align-items-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <a href="#">(15 Reviews)</a>
+                        </span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+<!------>
+              <div class="col-lg-4 col-md-6">
+                  <div class="single-dest">
+                      <div class="thumb">
+                          <img src="images/attraction 5.jpeg"class="img-fluid"alt="">
+                      </div>
+                      <div class="dest-info">
+                          <a href="#">
+                              <h3>Pantheon</h3>
+                          </a>
+                          <p>The Pantheon of Agrippa, also known as the Roman Pantheon, is one of the architectural masterpieces of the Italian capital. It is the best preserved building from ancient Rome.
+                            The construction of the current Pantheon was carried out during the reign of Hadrian, in the year 126 A.D. The name of Agrippa comes from the place in which the current building is built, which was previously occupied by the Pantheon of Agrippa, built in the year 27 B.C and that was destroyed in a fire in the year 80 A.D. 
+                            At the beginning of the 7th century the building was donated to the Pope Boniface IV, who transformed it into a church, in which function it currently finds itself in a perfect state of preservation.</p>
+                          <div class="rating d-flex justify-content-between">
+                        <span class="d-flex justify-content-center align-items-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <a href="#">(40 Reviews)</a>
+                        </span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+<!------>
+              <div class="col-lg-4 col-md-6">
+                  <div class="single-dest">
+                      <div class="thumb">
+                          <img src="images/attraction 6.jpeg"class="img-fluid"alt="">
+                      </div>
+                      <div class="dest-info">
+                          <a href="#">
+                              <h3>Villa Borghese</h3>
+                          </a>
+                          <p>Villa Borghese of Rome is one of the largest urban parks in Europe.
+                            The State acquired the gardens from the Borghese family in 1901 and opened them to the public on 12 July 1903.
+                            What differentiates Villa Borghese from other large parks such as Hyde Park or Central Park is the perfect combination between nature and Roman art.
+                            Villa Borghese is home to interesting architectural elements, sculptures, monuments and fountains created at different times by famous artists.</p>
+                          <div class="rating d-flex justify-content-between">
+                        <span class="d-flex justify-content-center align-items-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <a href="#">(15 Reviews)</a>
+                        </span>
+                          </div>
+                      </div>
+                  </div>
+            </div>
+</section>
+<!--end-of-top-attractions-->
+
+<!--List-of-facts-About-Rome-->
+  
+<section class="about mt-5">
+  <div class="container">
+    <div class="box">
+      <div class="row-justify-content-center">
+        <h2>List of Facst About Rome</h2>
+            <ul>
+          
+              <li><span>1</span>Modern Rome has 280 fountains and more than 900 churches.</li>
+              <li><span>2</span>Rome became the capital city of unified Italy in 1870, taking the title from Florence.</li>
+              <li><span>3</span>Women in ancient Rome dyed their hair with goat fat and beech wood ashes. The most popular colors were red and blond.</li>
+              <li><span>4</span>The mascot of Rome is a she-wolf that cared for brothers Romulus and Remus, the mythological founders of Rome.</li>
+              <li><span>5</span>In Ancient Rome, only free-born men were allowed to wear togas, a sign of Roman citizenship. Women wore stolas, the female version of togas, made from linen.</li>
+            </ul>        
+      </div>
+    </div>
+  </div>
+<!--End-of-List-of-facts-About-Rome-->
+
+<!--Top-best-Hotels-->
+
+<section class="mt-2">
+  <div class="featured-places">
+      <div class="container">
+          <div class="row-justify-content-center">
+              <div class="col-lg-6">
+                  <div class="section-title text-center mb-70">
+                      <h3 class="text-uppercase text-center">Top Best Hotels in Rome</h3>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-4 col-md-6">
+                  <div class="single-dest">
+                      <div class="thumb">
+                          <img src="Images/Hotel -1.jpg"class="img-fluid"alt="">
+                      </div>
+                      <div class="dest-info">
+                          <a href="#">
+                              <h3>The Liberty Boutique Hotel</h3>
+                          </a>
+                          <p>Set in a grand building, this upscale hotel is a 9-minute walk from Termini train station, 3 km from The Colosseum and 5 km from the Trevi Fountain.
+                            Refined rooms with decorative ceilings and moldings feature flat-screen TVs and free Wi-Fi, as well as coffeemakers and minibars.
+                            Breakfast is included. There's a posh rooftop bar and a meeting room. Parking is available.</p>
+                          <div class="rating d-flex justify-content-between">
+                        <span class="d-flex justify-content-center align-items-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <a href="#">(15 Reviews)</a>
+                        </span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+<!------>
+              <div class="col-lg-4 col-md-6">
+                  <div class="single-dest">
+                      <div class="thumb">
+                          <img src="images/Hotel-2.jpg"class="img-fluid"alt="">
+                      </div>
+                      <div class="dest-info">
+                          <a href="#">
+                              <h3>Albergo Del Senato</h3>
+                          </a>
+                          <p>A minute's walk from the 2nd-century Pantheon, this elegant hotel in a 19th-century palazzo is also 5 minutes by foot from the nearest bus stop and 1.9 km from Rome's iconic Colosseum.
+                            Plush rooms and suites with polished wood floors, feature flat-screen TVs, minibars and free Wi-Fi; some have pull-out sofas.
+                            Suites and 1-bedroom split-level apartments feature individual details such as separate lounges with tea and coffeemakers, vaulted ceilings with Renaissance-style frescoes, and balconies with Pantheon views. Room service is available.</p>
+                          <div class="rating d-flex justify-content-between">
+                        <span class="d-flex justify-content-center align-items-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <a href="#">(30 Reviews)</a>
+                        </span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+<!------>
+              <div class="col-lg-4 col-md-6">
+                  <div class="single-dest">
+                      <div class="thumb">
+                          <img src="images/Hotel-3.jpg"class="img-fluid"alt="">
+                      </div>
+                      <div class="dest-info">
+                          <a href="#">
+                              <h3>Hotel Nord Nuova Roma</h3>
+                          </a>
+                          <p>Set in a building from the 1930s, this stylish hotel is a minute's walk from the National Museum of Rome, a 3-minute walk from Termini metro station and 2 km from the Colosseum.
+                            Featuring modern decor, the refined rooms offer free Wi-Fi, flat-screen TVs and minibars. Upgraded rooms add additional space. Room service is available.
+                            Complimentary buffet breakfast is served in an elegant dining room. Other amenities include a gym, a lounge bar and a seasonal roof garden offering snacks and drinks. Parking is available for an additional charge.</p>
+                          <div class="rating d-flex justify-content-between">
+                        <span class="d-flex justify-content-center align-items-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <a href="#">(20 Reviews)</a>
+                        </span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+</section>
+<!--End-of-top-best-Hotels-->
+
+<!--Hotel Pricing-and-Packages--->
+
+<section class="pricing-section pt-5">
+  <div class="container">
+      <div class="section-title text-center">
+          <h2> Hotel Prices and Packages</h2>
+          <p>These are some of the prices offered by our Top Best Hotels in Rome. </p>
+      </div>
+      <div class="row">
+          <div class="col-lg-3 col-sm-6">
+              <div class="price-item standard">
+                  <div class="price-top">
+                      <h4>Standard</h4>
+                  </div>
+                  <div class="price-sec">
+                      <h3>P350</h3>
+                      <p>Per Night</p>
+                  </div>
+                  <ul>
+                      <li>Breakfast in Bed.</li>
+                      <li>Day Trips.</li>
+                      <li>Visit to Ischia Island.</li>
+                      <li>Food Festival.</li>
+                  </ul>
+                  <a href=""class="site-btn sb-gradient">Apply</a>
+              </div>
+          </div>
+          <!----->
+          <div class="col-lg-3 col-sm-6">
+            <div class="price-item upgrade">
+                <div class="price-top">
+                    <h4>Upgrade</h4>
+                </div>
+                <div class="price-sec">
+                    <h3>P450</h3>
+                    <p>Per Night</p>
+                </div>
+                <ul>
+                    <li>Breakfast,lunch and Dinner.</li>
+                    <li>Spa package.</li>
+                    <li>Attend Events.</li>
+                    <li>Transport provided.</li>
+                </ul>
+                <a href=""class="site-btn sb-gradient">Apply</a>
+            </div>
+        </div>
+        <!----->
+        <div class="col-lg-3 col-sm-6">
+            <div class="price-item deluxe">
+                <div class="price-top">
+                    <h4>Deluxe</h4>
+                </div>
+                <div class="price-sec">
+                    <h3>P1000</h3>
+                    <p>Per Night</p>
+                </div>
+                <ul>
+                    <li>No reservation costs.</li>
+                    <li>Breakfast,lunch and Dinner.</li>
+                    <li>Private Bedroom.</li>
+                    <li>Spa package.</li>
+                </ul>
+                <a href=""class="site-btn sb-gradient">Apply</a>
+            </div>
+        </div>
+        <!----->
+        <div class="col-lg-3 col-sm-6">
+            <div class="price-item executive">
+                <div class="price-top">
+                    <h4>Executive Suites</h4>
+                </div>
+                <div class="price-sec">
+                    <h3>P2000</h3>
+                    <p>Per Night</p>
+                </div>
+                <ul>
+                    <li>Breakfast,lunch and Dinner.</li>
+                    <li>Private Boat Cruises.</li>
+                    <li>Helicopter city tour.</li>
+                    <li>Low rates.</li>
+                </ul>
+                <a href=""class="site-btn sb-gradient">Apply</a>
+            </div>
+        </div>
+        <!----->
+      </div>
+  </div>
+</section>
+<!--end-of-Hotel Pricing-and--Packages--->
+
+<!--footer-Section-->
+<footer id="footer">
+  <div class="footer-newsletter">
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-lg-6">
+                  <h4>Join Our News Letter</h4>
+                  <p>Subscribe to our Newsletter and get in touch with fresh Daily,weeekly and Monthly updates.</p>
+                  <form>
+                      <input type="email"name="email">
+                      <input type="submit"value="Subscribe">
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+<div class="container py-4">
+    <div class="copyright">
+        &copy;Copyright<strong><span>Top Destionations</span></strong>
+        .All Rights Reserved
+    </div>
+    <div class="credits">
+        Designed by<a href="#">Obakeng U Amos</a>
+    </div>
+</div>
+</footer>
+<!--end-of-footer-section-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

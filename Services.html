@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Top Destinantions</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="Styles/main.css">
+    <script src="https://kit.fontawesome.com/ed6843e3a7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <!---Navigation bar-->  
+    <nav class="navbar navbar-expand-lg navbar-light main-navbar
+      bg m-navbar-light" id="main-navbar">
+      <div class="container">
+          <a class="navbar-brand"href="#">Top Destinations</a>
+          <button class="navbar-toggler"type="button"data-toggle="collapse"
+          data-target="#my-nav" aria-controls="p-nav"aria-expanded="false"
+          aria-label="toggle-navigation">
+        <span>Menu</span>
+        </button>
+        <div class="collapse navbar-collapse"id="my-nav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a href="index.html"class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html"class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Lifestyle.html"class="nav-link">Lifestyle</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Events.html"class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Services.html"class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Connect with Us.html"class="nav-link">Connect with us</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+<!--End-of-navigation-bar-->
+
+<!--Banner-Image-->
+
+<section class="banner-wrap"
+    style="background-image:url('images/banner-1.jpeg');">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row no-gutters main-text align-items-center">
+            <div class="col-lg-7 col-mid-6 d-flex align-items-end">
+                <div class="text">
+                    <h1 class="mb-4 text-capitalize">Services</h1>    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--end-of-banner-Image-->
+
+<!---Tab-section-and-forms-->
+<section>
+    <div class="section-search">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 tab-search">
+              <div class="nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <a class="nav-link p-3 active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Flights</a>
+              <a class="nav-link p-3" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"> Hotels</a>
+              <a class="nav-link p-3" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Car Rental</a>
+              <a class="nav-link p-3" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"> Cruises</a>
+            </div>
+          </div>
+
+          <div class="tab-content py-5" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+              <div class="block-17">
+                <form class="d-block d-lg-flex">
+                  <div class="fields d-block d-lg-flex">
+
+                    <div class="textfield-search one-third"><input type="text" class="form-control" placeholder="Search Location"></div>
+
+                    <div class="check-in one-third"><input type="text" id="checkin_date" class="form-control" placeholder="Check-in date"></div>
+
+                    <div class="check-out one-third"><input type="text" id="checkout_date" class="form-control" placeholder="Check-out date"></div>
+                    <div class="select-wrap one-third">
+                   <select name="" id="" class="form-control">
+                        <option value="">Guest</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3+</option>
+                        
+                      </select>
+                    </div>
+                  </div>
+                  <input type="submit" class="search-submit btn btn-primary" value="Find local flights">
+                </form>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+              <div class="block-17">
+                <form action="" method="post" class="d-block d-lg-flex">
+                  <div class="fields d-block d-lg-flex">
+                    <div class="textfield-search one-third"><input type="text" class="form-control" placeholder="Search Hotel"></div>
+
+                    <div class="check-in one-third"><input type="text" id="checkin_date" class="form-control" placeholder="Check-in date"></div>
+
+                    <div class="check-out one-third"><input type="text" id="checkout_date" class="form-control" placeholder="Check-out date"></div>
+                    <div class="select-wrap one-third">
+                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                      <select name="" id="" class="form-control">
+                        <option value="">Guest</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3+</option>
+                        
+                      </select>
+                    </div>
+                  </div>
+                  <input type="submit" class="search-submit btn btn-primary" value="Find Hotels">
+                </form>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+              <div class="block-17">
+                <form action="" method="post" class="d-block d-lg-flex">
+                  <div class="fields d-block d-lg-flex">
+                    <div class="textfield-search one-third"><input type="text" class="form-control" placeholder="Search Location"></div>
+
+                    <div class="check-in one-third"><input type="text" id="Pick-up-date" class="form-control" placeholder="Pick-up-date"></div>
+
+                    <div class="check-out one-third"><input type="text" id="Drop-off-date" class="form-control" placeholder="Drop-off-date"></div>
+                    <div class="select-wrap one-third">
+                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                      <select name="" id="" class="form-control">
+                        <option value="">Guest</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3+</option>
+                        
+                      </select>
+                    </div>
+                  </div>
+                  <input type="submit" class="search-submit btn btn-primary" value="Find Car">
+                </form>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <div class="block-17">
+                <form action="" method="post" class="d-block d-lg-flex">
+                  <div class="fields d-block d-lg-flex">
+                    <div class="textfield-search one-third one-third-1"><input type="text" class="form-control" placeholder="Search Location"></div>
+
+
+                    <div class="check-out one-third one-third-1"><input type="text" id="start_date" class="form-control" placeholder="Check-out date"></div>
+
+                    <div class="select-wrap one-third one-third-1">
+                      <div class="icon"></div>
+                      <select name="" id="" class="form-control">
+                        <option value="">Categories</option>
+                        <option value="">Suite</option>
+                        <option value="">Super Deluxe</option>
+                        <option value="">Economy</option> 
+                      </select>
+                    </div>
+                  </div>
+                  <input type="submit" class="search-submit btn btn-primary" value="Find Cruise">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!---End-of-tab-and-forms-section-->
+
+<!--Our-packages--->
+
+<section class="package py-3 mt-5">
+    <div class="container">
+        <div class="package mb-4">
+            <div class="row text-center m-4">
+                <div class="col-md-12 text-center">
+                  <h2 class="mb-4">Our Packages</h2>
+                    <span class="title-border"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-dest">
+                        <div class="thumb">
+                            <img src="Images/Package-1.jpeg"class="img-fluid"alt="">
+                            <a href="#"class="price">BWP1750</a>
+                        </div>
+                        <div class="dest-info">
+                            <a href="#">
+                                <h3>Vitacan Museum</h3>
+                            </a>
+                            <p>The birth of these museums was in the early 16th century. Pope Julius II founded them by purchasing the Vatican’s very first piece of art.
+                                This was a marble sculpture, known as “Laocoön and His Sons” which depicts three immaculately detailed figures fighting off writhing serpents.
+                            </p>
+                            <div class="rating d-flex justify-content-between">
+                          <span class="d-flex justify-content-center align-items-center">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <a href="#">(15 Reviews)</a>
+                          </span>
+                          <div class="days">
+                              <i class="fas fa-clock-o">
+                                  <a hrf="#">2 Days</a>
+                              </i>
+                          </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+  <!------>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-dest">
+                        <div class="thumb">
+                            <img src="images/Package-2.jpeg"class="img-fluid"alt="">
+                            <a href="#"class="price">BWP6500</a>
+                        </div>
+                        <div class="dest-info">
+                            <a href="#">
+                                <h3>Rome Day Tour</h3>
+                            </a>
+                            <p>Get the full Rome day tour experience of Rome’s Colosseum and the Vatican City – two of the city’s most visited and historic sites.
+                                Delve deep into the ancient past of Roman life and skip the line for an unforgettable experience that brings ancient archaeology and prominent Renaissance artworks to life.
+                                Alongside a local guide and armed with a headset, you’ll dig deep into the rich past of Rome, visiting key landmarks like the Vatican Museums, St. Peter’s Basilica, and the Sistine Chapel.
+                            </p>
+                            <div class="rating d-flex justify-content-between">
+                          <span class="d-flex justify-content-center align-items-center">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <a href="#">(30 Reviews)</a>
+                          </span>
+                          <div class="days">
+                              <i class="fas fa-clock-o">
+                                  <a hrf="#">3 Days</a>
+                              </i>
+                          </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+  <!------>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-dest">
+                        <div class="thumb">
+                            <img src="images/Package-3.jpeg"class="img-fluid"alt="">
+                            <a href="#"class="price">BWP1300</a>
+                        </div>
+                        <div class="dest-info">
+                            <a href="#">
+                                <h3>Amalfie Coast Tour</h3>
+                            </a>
+                            <p>The Amalfi Coast is post-card perfect Italy – think picturesque fishing villages set into mountains that plunge into the turquoise sea below.
+                                We have a number of tours available to explore the area, from a day trip from Rome, to private tours for travellers staying in the region.
+                                No visit to the Amalfi Coast is complete without a day out on the famous Island of Capri, and our tours from Rome, Sorrento and Capri will take you to explore this glamorous jewel in the Tyrrhenian Sea.
+                               </p>
+                            <div class="rating d-flex justify-content-between">
+                          <span class="d-flex justify-content-center align-items-center">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <a href="#">(20 Reviews)</a>
+                          </span>
+                          <div class="days">
+                              <i class="fas fa-clock-o">
+                                  <a href="#">4 Days</a>
+                              </i>
+                          </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+</section>
+<!--End-of-our-packages-section->
+
+<!-End of project Section-->
+
+    <!--Services-->
+<section class="services p-5" id="SERVICES">
+    <div class="container">
+        <div class="row">
+<!--Title-->
+            <div class="col text-center mb-3">
+            <h2 class="mb-4">Our Services</h2>
+            <span class="title-border"></span>
+            <p>Services you can find while touring Rome.</p>
+           </div>
+<!-- end of title--->
+        </div>
+    </div>
+           
+    </div>
+    
+    <div class="service-inner-wrapper">
+   <div class="container">
+   <div class="row">                
+<div class="col-md-4">
+    <div class="left-service-item">
+<!-- Icon -->
+     <div class="left-icon">
+      <i class="fas fa-bus"></i>
+         </div>
+<!-- Service item title & description -->
+         <h3>City Tour</h3>
+         <p>Take a Rome hop-on hop-off tour by open-top bus, and spend time city sightseeing as you travel past attractions such as the Colosseum and Vatican City.
+           Relax aboard the double-decker Rome tour bus, listen to the audio commentary and hop on and off at any of the stops.</p>
+            </div>          
+<!-- left service item 02 -->
+            <div class="left-service-item">
+<!-- Icon -->
+                 <div class="left-icon">
+                    <i class="fas fa-utensils fa-2x"></i>
+                 </div>
+<!-- Service item title & description -->
+                 <h3> food </h3>
+             <p>Taste your way through Rome's street food scene on this gourmet walking tour.
+               Sample a variety of street foods, such as zucchini flowers, suppli, pastries, and pizza, while taking in the impressive scenery of historic Rome all around you.
+               This tour is ideal for first-time visitors to Rome and for foodies who want to learn more about Roman cuisine.</p>
+             </div>
+<!-- left service item 03 -->
+            <div class="left-service-item">
+<!-- Icon -->
+              <div class="left-icon">
+                  <i class="fas fa-umbrella-beach fa-2x"></i>
+                 </div>
+<!-- service item title & description -->
+                 <h3> Beach Resort</h3>
+                <p>If you're looking forward to a beach getaway, jetting off to Rome might be just the ticket.
+                  Whether you want to collect seashells or stroll along the shore, this dynamic city is perfect for travelers looking to stay near the water</p>
+        </div>                                            
+                </div>
+                <div class="col-md-4">
+<div class="service-pic">
+   <img src="images/services.jpeg" alt=""class="center shadow">          
+     </div>  
+     </div>
+      <div class="col-md-4">              
+<!-- right service item 01 -->
+             <div class="right-service-item">
+<!-- Icon -->
+             <div class="right-icon">
+              <i class="fas fa-hiking"></i>                    
+                        </div>
+<!-- service item title and description -->
+                <h3> Hiking</h3>                  
+         <p>Walking, hiking, and trekking routes at just "a stone's throw" from Rome, all in the Lazio Region.
+          With its numerous paths and trails, Italy is a paradise for trekking lovers,
+          and since the crisis linked to covid has limited the possibility of sport and movement, a hike in the fresh air is an excellent way to experience Italy’s outdoors while getting great exercise</p>        
+                    </div>
+<!-- right service item 02 -->
+           <div class="right-service-item">
+<!-- Icon -->
+        <div class="right-icon">
+          <i class="fas fa-ship"></i>
+          </div>
+<!-- Service item title and description -->
+        <h3> Boat Tours</h3>
+        <p>From the Tiber, you can make the most of boat tours in Rome and explore the waters as well as the land
+          cruise up and down the river to heading to new destinations, boat tours in Rome offer plenty of opportunities.
+        </p> 
+        </div>           
+<!-- right service item 03 -->
+         <div class="right-service-item">
+<!-- Icon -->
+          <div class="right-icon">
+            <i class="fas fa-walking"></i>
+            </div>
+<!-- Service item title and description -->
+       <h3>Walks</h3>             
+     <p>Explore a fascinating neighborhood in Rome: Trastevere.
+       Join a small group led by an expert guide to learn about Jewish history and presence in Rome.</p>
+         </div>
+     </div>
+    </div>
+   </div>
+</div>
+</section>
+<!--end-of-services-section-->
+
+
+
+
+
+
+
+
+
+
+
+<!--footer-Section-->
+<footer id="footer">
+  <div class="footer-newsletter">
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-lg-6">
+                  <h4>Join Our News Letter</h4>
+                  <p>Subscribe to our Newsletter and get in touch with fresh Daily,weeekly and Monthly updates.</p>
+                  <form>
+                      <input type="email"name="email">
+                      <input type="submit"value="Subscribe">
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+<div class="container py-4">
+    <div class="copyright">
+        &copy;Copyright<strong><span>Top Destionations</span></strong>
+        .All Rights Reserved
+    </div>
+    <div class="credits">
+        Designed by<a href="#">Obakeng U Amos</a>
+    </div>
+</div>
+</footer>
+<!--end-of-footer-section-->
+  
+    <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>

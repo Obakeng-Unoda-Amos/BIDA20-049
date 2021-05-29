@@ -1,0 +1,727 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Top Destinantions</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="Styles/main.css">
+    <script src="https://kit.fontawesome.com/ed6843e3a7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <!---Navigation bar-->  
+    <nav class="navbar navbar-expand-lg navbar-light main-navbar
+      bg m-navbar-light" id="main-navbar">
+      <div class="container">
+          <a class="navbar-brand"href="#">Top Destinations</a>
+          <button class="navbar-toggler"type="button"data-toggle="collapse"
+          data-target="#my-nav" aria-controls="p-nav"aria-expanded="false"
+          aria-label="toggle-navigation">
+        <span>Menu</span>
+        </button>
+        <div class="collapse navbar-collapse"id="my-nav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a href="index.html"class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html"class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Lifestyle.html"class="nav-link">Lifestyle</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Events.html"class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Services.html"class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Connect with Us.html"class="nav-link">Connect with us</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+    <!--End-of-navigation-bar-->
+
+    <!--Banner-Image-->
+
+    <section class="banner-wrap"
+    style="background-image:url('images/banner-1.jpeg');">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row no-gutters main-text align-items-center">
+            <div class="col-lg-7 col-mid-6 d-flex align-items-end">
+                <div class="text">
+                    <h1 class="mb-4 text-capitalize">Welcome to ROME</h1>
+                    <p style="font-size:18px;">Rome was called the “Eternal City” by the ancient Romans because they believed that no matter what happened in the rest of the world, the city of Rome would always remain standing. Exploring the city centre by foot surrounded by glorious monuments and colossal remains takes you back in time to the “glory that was Rome”</p>
+                       
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--end-of-banner-Image-->
+
+<!---Tab-section-and-forms-->
+<section>
+    <div class="section-search">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 tab-search">
+              <div class="nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <a class="nav-link p-3 active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Flights</a>
+              <a class="nav-link p-3" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"> Hotels</a>
+              <a class="nav-link p-3" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Car Rental</a>
+              <a class="nav-link p-3" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"> Cruises</a>
+            </div>
+          </div>
+
+          <div class="tab-content py-5" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+              <div class="block-17">
+                <form class="d-block d-lg-flex">
+                  <div class="fields d-block d-lg-flex">
+
+                    <div class="textfield-search one-third"><input type="text" class="form-control" placeholder="Search Location"></div>
+
+                    <div class="check-in one-third"><input type="text" id="checkin_date" class="form-control" placeholder="Check-in date"></div>
+
+                    <div class="check-out one-third"><input type="text" id="checkout_date" class="form-control" placeholder="Check-out date"></div>
+                    <div class="select-wrap one-third">
+                   <select name="" id="" class="form-control">
+                        <option value="">Guest</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3+</option>
+                      </select>
+                    </div>
+                  </div>
+                  <input type="submit" class="search-submit btn btn-primary" value="Find local flights">
+                </form>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+              <div class="block-17">
+                <form action="" method="post" class="d-block d-lg-flex">
+                  <div class="fields d-block d-lg-flex">
+                    <div class="textfield-search one-third"><input type="text" class="form-control" placeholder="Search Hotel"></div>
+
+                    <div class="check-in one-third"><input type="text" id="checkin_date" class="form-control" placeholder="Check-in date"></div>
+
+                    <div class="check-out one-third"><input type="text" id="checkout_date" class="form-control" placeholder="Check-out date"></div>
+                    <div class="select-wrap one-third">
+                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                      <select name="" id="" class="form-control">
+                        <option value="">Guest</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3+</option>
+                        
+                      </select>
+                    </div>
+                  </div>
+                  <input type="submit" class="search-submit btn btn-primary" value="Find Hotels">
+                </form>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+              <div class="block-17">
+                <form action="" method="post" class="d-block d-lg-flex">
+                  <div class="fields d-block d-lg-flex">
+                    <div class="textfield-search one-third"><input type="text" class="form-control" placeholder="Search Location"></div>
+
+                    <div class="check-in one-third"><input type="text" id="Pick-up-date" class="form-control" placeholder="Pick-up-date"></div>
+
+                    <div class="check-out one-third"><input type="text" id="Drop-off-date" class="form-control" placeholder="Drop-off-date"></div>
+                    <div class="select-wrap one-third">
+                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                      <select name="" id="" class="form-control">
+                        <option value="">Guest</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3+</option>
+                        
+                      </select>
+                    </div>
+                  </div>
+                  <input type="submit" class="search-submit btn btn-primary" value="Find Car">
+                </form>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <div class="block-17">
+                <form action="" method="post" class="d-block d-lg-flex">
+                  <div class="fields d-block d-lg-flex">
+                    <div class="textfield-search one-third one-third-1"><input type="text" class="form-control" placeholder="Search Location"></div>
+
+
+                    <div class="check-out one-third one-third-1"><input type="text" id="start_date" class="form-control" placeholder="Check-out date"></div>
+
+                    <div class="select-wrap one-third one-third-1">
+                      <div class="icon"></div>
+                      <select name="" id="" class="form-control">
+                        <option value="">Categories</option>
+                        <option value="">Suite</option>
+                        <option value="">Super Deluxe</option>
+                        <option value="">Economy</option> 
+                      </select>
+                    </div>
+                  </div>
+                  <input type="submit" class="search-submit btn btn-primary" value="Find Cruise">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!---End-of-tab-and-forms-section-->
+
+<!--TOP-DESTINATIONS-ABOUT-SECTION-->
+
+<section class="about-section mt-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 text-center heading-section mb-5">
+        <h2 class="text-black mb-2">Welcome to Top Destinations</h2>
+        <p>Were we pride ourselves with providing you with top quality information about your favorite cities around the globe.
+          Be inspired as you learn about the culture,lifestyle and rich history of the Roman Empire. Adventure awaits,Go find it..
+        </p>
+      </section>
+
+<!---END-OF-TOP-DESTINATIONS-ABOUT-SECTION-->
+
+<!--Mayor's-Remarks-->
+
+<section>
+  <div class="card">
+    <div class="profile-sidebar">
+      <img class="profile-image" src="images/mayor-1.jpeg" alt="" width="30%" height="50%">
+      <ul class="social-list">
+
+        <li class="social-items">
+          <a aria-label="facebook" class="social-link" href="#"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li class="social-items">
+          <a aria-label="twitter" class="social-link" href="#"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li class="social-items">
+          <a aria-label="instagram" class="social-link" href="#"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li class="social-items">
+          <a aria-label="google-plus" class="social-link" href="#"><i class="fab fa-google-plus"></i></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="profile-main">
+      <h2 class="profile-name">Virginia Elena Raggi</h2>
+      <p class="profile-position">Mayor of Rome</p>
+      <p class="profile-text"><b>Virginia Elena Raggi</b> is an italian lawyer and politician serving as Mayor of Rome since 2016.
+        She represents the anti-establishment Five Star Movement(M5s) Raggi is both the first candidate from her party and first woman to be elected as Rome Mayor.
+        <br><br>
+        We welcome you to the beautiful and Majestic city of Rome, be inspired and fall inlove with the rich history of our city as you walk
+        in the footsteps of our founding fathers.
+        <br><br>
+        We hope you enjoy your visit and stay with us.<i>Thank You!!</i>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!--End-of-Mayors-Remarks-->
+
+<!--Featured-Destinations-->
+
+<section class="mt-2">
+  <div class="featured-places">
+      <div class="container">
+          <div class="row-justify-content-center">
+              <div class="col-lg-6">
+                  <div class="section-title text-center mb-70">
+                      <h3 class="text-uppercase text-center">Featured Places</h3>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-4 col-md-6">
+                  <div class="single-dest">
+                      <div class="thumb">
+                          <img src="Images/destination 1.jpeg"class="img-fluid"alt="">
+                          <a href="#"class="price">BWP2000</a>
+                      </div>
+                      <div class="dest-info">
+                          <a href="#">
+                              <h3>Venice,Italy</h3>
+                          </a>
+                          <p>Know as the "City of Canals", the Floating City is arguably one of the Italy's most picturesque cities.</p>
+                          <div class="rating d-flex justify-content-between">
+                        <span class="d-flex justify-content-center align-items-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <a href="#">(15 Reviews)</a>
+                        </span>
+                        <div class="days">
+                            <i class="fas fa-clock-o">
+                                <a hrf="#">2 Days</a>
+                            </i>
+                        </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+<!------>
+              <div class="col-lg-4 col-md-6">
+                  <div class="single-dest">
+                      <div class="thumb">
+                          <img src="images/destination 2.jpeg"class="img-fluid"alt="">
+                          <a href="#"class="price">BWP3700</a>
+                      </div>
+                      <div class="dest-info">
+                          <a href="#">
+                              <h3>New York City,United States</h3>
+                          </a>
+                          <p>New York City is famous for many reasons like amazing culture,beautiful architecture,appetizing food and drink,festivals and gorgeous beaches.</p>
+                          <div class="rating d-flex justify-content-between">
+                        <span class="d-flex justify-content-center align-items-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <a href="#">(30 Reviews)</a>
+                        </span>
+                        <div class="days">
+                            <i class="fas fa-clock-o">
+                                <a hrf="#">3 Days</a>
+                            </i>
+                        </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+<!------>
+              <div class="col-lg-4 col-md-6">
+                  <div class="single-dest">
+                      <div class="thumb">
+                          <img src="images/destination 3.jpeg"class="img-fluid"alt="">
+                          <a href="#"class="price">BWP1900</a>
+                      </div>
+                      <div class="dest-info">
+                          <a href="#">
+                              <h3>Milan,Italy</h3>
+                          </a>
+                          <p>Milan is known as the economic heart of Italy.Many headquarters of the financial industry are based in Milan.
+                            The city is known for its thriving fashion industry.</p>
+                          <div class="rating d-flex justify-content-between">
+                        <span class="d-flex justify-content-center align-items-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <a href="#">(20 Reviews)</a>
+                        </span>
+                        <div class="days">
+                            <i class="fas fa-clock-o">
+                                <a href="#">4 Days</a>
+                            </i>
+                        </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+<!------>
+              <div class="col-lg-4 col-md-6">
+                  <div class="single-dest">
+                      <div class="thumb">
+                          <img src="images/destination 4.jpeg"class="img-fluid"alt="">
+                          <a href="#"class="price">BWP6000</a>
+                      </div>
+                      <div class="dest-info">
+                          <a href="#">
+                              <h3>Armsterdam,Netherlands</h3>
+                          </a>
+                          <p>Armsterdam is the Netherlands capital,known for its artistic heritage,elaborate canal system and narrow houses with 
+                            gabled facades,legacies of the city's 17th century Golden Age.</p>
+                          <div class="rating d-flex justify-content-between">
+                        <span class="d-flex justify-content-center align-items-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <a href="#">(15 Reviews)</a>
+                        </span>
+                        <div class="days">
+                            <i class="fas fa-clock-o">
+                                <a href="#">5 Days</a>
+                            </i>
+                        </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+<!------>
+              <div class="col-lg-4 col-md-6">
+                  <div class="single-dest">
+                      <div class="thumb">
+                          <img src="images/destination 5.jpeg"class="img-fluid"alt="">
+                          <a href="#"class="price">BWP4000</a>
+                      </div>
+                      <div class="dest-info">
+                          <a href="#">
+                              <h3>Barcelona,Spain</h3>
+                          </a>
+                          <p>Barcelona is known for its exceptional soccer and the brilliant architecture of Antoni Gaudi.It is also famous for its modern
+                            art museums,serene parks,golden shoreline,and tasty tapas.</p>
+                          <div class="rating d-flex justify-content-between">
+                        <span class="d-flex justify-content-center align-items-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <a href="#">(40 Reviews)</a>
+                        </span>
+                        <div class="days">
+                            <i class="fas fa-clock-o">
+                                <a href="#">3 Days</a>
+                            </i>
+                        </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+<!------>
+              <div class="col-lg-4 col-md-6">
+                  <div class="single-dest">
+                      <div class="thumb">
+                          <img src="images/destination 6.jpeg"class="img-fluid"alt="">
+                          <a href="#"class="price">BWP7000</a>
+                      </div>
+                      <div class="dest-info">
+                          <a href="#">
+                              <h3>New Orleans,United States</h3>
+                          </a>
+                          <p>New Orleans is the best city to visit for fun,parties,events and culture.It is known for its round-the-clock nightlife
+                            ,vibrant live-music scene spicy,singular cuisine reflecting its history as a melting pot of French,African and American cultures.</p>
+                          <div class="rating d-flex justify-content-between">
+                        <span class="d-flex justify-content-center align-items-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <a href="#">(15 Reviews)</a>
+                        </span>
+                        <div class="days">
+                            <i class="fas fa-clock-o">
+                                <a href="#">3 Days</a>
+                            </i>
+                        </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+<!------> 
+          </div>
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="btn-hist text-center ">
+                    <div><a href="#" class="btn btn-hist">View More</a></div>
+                  </div>
+              </div>
+          </div>
+          
+      </div>
+  </div>
+</section>
+<!--End-of-featured-Destinations-->
+
+<!--Customer-Reviews-->
+
+<section class="testimonial-section mt-5">
+  <div class="container">
+      <div class="row">
+          <div class="section-title">
+              <h2>Customer Reviews</h2>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-lg-6">
+              <div class="testimonial-item">
+                  <div class="test-date">
+                      10/03/2021
+                  </div>
+                  
+                  <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                  </div>
+                  <p>We had looked forward to experience both Colosseum and Forum Romanum, and it was quite a visit. Everybody must have this on their "must see" list.
+                      The only problem in August is that there are too many people visiting at the same time. So either visit in another month or investigate time of day to visit.</p>
+                  <div class="customer">
+                      <div class="customer-photo">
+                          <img src="images/customer 1.jpeg"alt="">
+                      </div>
+                      <div class="test-text">
+                          <h6>Jon Snow<span>South Africa</span></h6>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!----->
+          <div class="col-lg-6">
+              <div class="testimonial-item">
+                  <div class="test-date">
+                      09/02/2021
+                  </div>
+                  
+                  <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                  </div>
+                  <p>Rome fulfils all that it promises. History, paintings, sculptures and food. The Vatican, the Colosseum,the Trevi fountain and lots more. Ideally a month would be less to savour all these things in some detail.
+                    The traffic is like all other major cities but the people are helpful. We were fortunate to have good weather except one evening when it rained.
+                    A good guide is a must, not only for the touristic angle but also for tips where to eat or grab a quick drink.</p>
+                  <div class="customer">
+                      <div class="customer-photo">
+                          <img src="images/customer 2.jpeg"alt="">
+                      </div>
+                      <div class="test-text">
+                          <h6>Sarah Johnson <span>Newzealand</span></h6>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!----->
+      </div>
+  </div>
+</section>
+<!--End of Customer-Reviews-->
+
+<!--Our-Team--->
+
+<section class="team section-bg mt-5">
+  <div class="container">
+      <div class="section-title">
+          <h2 class="text-center">Our Team</h2>
+          <p class="text-center">Our team of specialists is dedicated to providing you with quality and value for your money.</p>
+      </div>
+      <div class="row">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member">
+                  <div class="member-img">
+                      <img src="images/team member 5.jpeg"class="img-fluid"alt="">
+                      <div class="social">
+                          <a href=""><i class="fab fa-facebook"></i></a>
+                          <a href=""><i class="fab fa-twitter"></i></a>
+                          <a href=""><i class="fab fa-instagram"></i></a>
+                          <a href=""><i class="fab fa-google-plus"></i></a>
+                      </div>
+                  </div>
+                  <div class="member-info">
+                      <h4>Sansa Stark</h4>
+                      <span>Writer</span>
+                  </div>
+              </div>
+          </div>
+<!---->
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member">
+                  <div class="member-img">
+                      <img src="images/team member 2.jpeg"class="img-fluid"alt="">
+                      <div class="social">
+                          <a href=""><i class="fab fa-facebook"></i></a>
+                          <a href=""><i class="fab fa-twitter"></i></a>
+                          <a href=""><i class="fab fa-instagram"></i></a>
+                          <a href=""><i class="fab fa-google-plus"></i></a>
+                      </div>
+                  </div>
+                  <div class="member-info">
+                      <h4>Steve Rodgers</h4>
+                      <span>Web Developer</span>
+                  </div>
+              </div>
+          </div>
+<!---->
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member">
+                  <div class="member-img">
+                      <img src="images/team member 3.jpeg"class="img-fluid"alt="">
+                      <div class="social">
+                          <a href=""><i class="fab fa-facebook"></i></a>
+                          <a href=""><i class="fab fa-twitter"></i></a>
+                          <a href=""><i class="fab fa-instagram"></i></a>
+                          <a href=""><i class="fab fa-google-plus"></i></a>
+                      </div>
+                  </div>
+                  <div class="member-info">
+                      <h4>Natasha Amos</h4>
+                      <span>Co-writer</span>
+                  </div>
+              </div>
+          </div>
+<!---->
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member">
+                  <div class="member-img">
+                      <img src="images/team member 6.jpeg"class="img-fluid"alt="">
+                      <div class="social">
+                          <a href=""><i class="fab fa-facebook"></i></a>
+                          <a href=""><i class="fab fa-twitter"></i></a>
+                          <a href=""><i class="fab fa-instagram"></i></a>
+                          <a href=""><i class="fab fa-google-plus"></i></a>
+                      </div>
+                  </div>
+                  <div class="member-info">
+                      <h4>Samwell Turly</h4>
+                      <span>Editor</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!--End-of-Our-Team-->
+
+<!--Contact-US-Section--->
+<section class="contact mt-2">
+  <div class="container">
+      <div class="section-title">
+          <h2 class="text-center">
+              Contact Us
+          </h2>
+          <p class="text-center">
+              Contact our Agents for more information.
+          </p>
+      </div>
+      <div class="row">
+          <div class="col-lg-6">
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="icon-box">
+                          <i class="fas fa-share"></i>
+                          <h3>Social Profiles</h3>
+                          <div class="social-links">
+
+                              <a href="#"class="twitter">
+                                  <i class="fab fa-twitter"></i>
+                              </a>
+                              <a href="#"class="facebook">
+                                  <i class="fab fa-facebook"></i>
+                              </a>
+                              <a href="#"class="instagram">
+                                  <i class="fab fa-instagram"></i>
+                              </a>
+                              <a href="#"class="linkedin">
+                                  <i class="fab fa-linkedin"></i>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="icon-box mt-4">
+                          <i class="fas fa-envelope"></i>
+                          <h3>Email Us</h3>
+                          <p>info@topdestinations.com</p>
+                      </div>
+  
+                  </div>
+                  <div class="col-md-6">
+                      <div class="icon-box mt-4">
+                          <i class="fas fa-phone"></i>
+                          <h3>24/7 support</h3>
+                          <p>+267 76894781</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-6">
+              <form>
+                  <div class="form-row">
+                      <div class="col-md-6 form-group">
+                          <input type="text"name="name"class="form-control"
+                          id="name"placeholder="Name">
+                      </div>
+                      <div class="col-md-6 form-group">
+                          <input type="email"name="email"class="form-control"
+                          id="email"placeholder="Email">
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <input type="text" class="form-control"name="subject"
+                      id="subject"placeholder="Subject">
+                  </div>
+                  <div class="form-group">
+                      <textarea class="form-control"name="message"row="6"
+                      placeholder="Message"></textarea>
+                  </div>
+                  <div><a href="#" class="btn btn-about">Send Message</a></div>
+  
+              </form>
+          </div>
+      </div>
+  </div>
+  </section> 
+<!--end-of-Contact-Us-Section-->
+
+<!--footer-Section-->
+<footer id="footer">
+    <div class="footer-newsletter">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <h4>Join Our News Letter</h4>
+                    <p>Subscribe to our Newsletter and get in touch with fresh Daily,weeekly and Monthly updates.</p>
+                    <form>
+                        <input type="email"name="email">
+                        <input type="submit"value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  <div class="container py-4">
+      <div class="copyright">
+          &copy;Copyright<strong><span>Top Destionations</span></strong>
+          .All Rights Reserved
+      </div>
+      <div class="credits">
+          Designed by<a href="#">Obakeng U Amos</a>
+      </div>
+  </div>
+</footer>
+<!--end-of-footer-section-->
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
